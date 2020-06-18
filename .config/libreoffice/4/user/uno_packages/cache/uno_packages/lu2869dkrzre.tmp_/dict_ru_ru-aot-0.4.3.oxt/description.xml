@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description xmlns="http://openoffice.org/extensions/description/2006" xmlns:d="http://openoffice.org/extensions/description/2006"  xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <identifier value="org.openoffice.ro.dictionaries.ru-aot" />
+
+    <version value="0.4.3" />
+
+    <dependencies>
+        <OpenOffice.org-minimal-version value="3.0" d:name="Russian Dictionaries (Based on AOT) for OpenOffice.org 3.0"/>
+    </dependencies>
+
+
+    <display-name>
+      <name lang="ru">Орфографический словарь для русского языка (только "Ё"). Собран на основе словаря рабочей группы AOT.</name>
+      <name lang="en">Russian spellchecker dictionary. Based on dictionary of AOT group (only yo).</name>
+    </display-name>
+	<extension-description>
+	<src xlink:href="copyright.txt" lang="en" />
+	<src xlink:href="copyright.txt" lang="ru" />
+	</extension-description>
+	<icon>
+		<default xlink:href="DicRU1.png" />
+	</icon>	
+</description>
+
+

@@ -1,0 +1,33 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background/background.js" ]
+   },
+   "browser_action": {
+      "default_popup": "popup/popup.html",
+      "default_title": "De-Mainstream"
+   },
+   "content_scripts": [ {
+      "js": [ "youtube/youtube.js" ],
+      "matches": [ "https://*.youtube.com/*" ]
+   } ],
+   "content_security_policy": "script-src 'self'; object-src 'self'",
+   "description": "Fixes the YouTube™ algorithm to remove mainstream media results from searches.",
+   "homepage_url": "https://www.demainstream.com",
+   "icons": {
+      "128": "img/icons/icon@8x.png",
+      "16": "img/icons/icon@1x.png",
+      "32": "img/icons/icon@2x.png",
+      "48": "img/icons/icon@3x.png"
+   },
+   "incognito": "spanning",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuH3zVu8Tj1o/H3v2tp+qqGCQuiaRSHnQL4c6493yfVOJnz7BXpxtemnyr5HZjG9/92IBHFBAlbWxRfi+WbqC0ZEgCz3FNOuFEYVk7/t1Pvb3PSp0p/DWS2+SRbqppUiL7kBDbQ3l+E0gs9O440vI7LzA5n76E3SGCxdKQ4bGyG+sZONx9nMPL6Ix9HOrs1fsNZJI6oOpmQYXDoWHvFL1wwQpADaTdtJDcPqLpNgZq8kuVtnPJZOG+MQJfZgKgf43PoxiC5uAGxuIYggRa9RKNLq6Og8ATvh1v1aSDNelWmeZ9SYgIcGD5YZ0GdfPGsRIy6NeML6g/HecBwM3tW05SQIDAQAB",
+   "manifest_version": 2,
+   "name": "De-Mainstream YouTube™",
+   "offline_enabled": true,
+   "permissions": [ "https://*.youtube.com/", "contextMenus" ],
+   "short_name": "De-Mainstream",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.5",
+   "version_name": "1.0.5"
+}

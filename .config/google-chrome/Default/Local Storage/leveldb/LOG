@@ -1,0 +1,9 @@
+2020/06/03-21:51:19.518 1be4 Reusing MANIFEST /home/xanderz/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2020/06/03-21:51:19.518 1be4 Recovering log #124
+2020/06/03-21:51:19.520 1be4 Reusing old log /home/xanderz/.config/google-chrome/Default/Local Storage/leveldb/000124.log 
+2020/06/03-23:51:23.936 31f9 Level-0 table #129: started
+2020/06/03-23:51:23.943 31f9 Level-0 table #129: 11912 bytes OK
+2020/06/03-23:51:23.947 31f9 Delete type=0 #124
+2020/06/04-19:42:28.451 31f9 Level-0 table #131: started
+2020/06/04-19:42:28.458 31f9 Level-0 table #131: 8308 bytes OK
+2020/06/04-19:42:28.462 31f9 Delete type=0 #128

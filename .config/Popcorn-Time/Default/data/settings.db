@@ -1,0 +1,10 @@
+{"key":"disclaimerAccepted","value":1,"_id":"5uekt4LBEzBmuwiP"}
+{"key":"language","value":"en","_id":"dj7rEsln9KW0N8eI"}
+{"key":"filters","value":{"movies":{"sorter":"trending","genre":"","order":-1}},"_id":"fE4mMw3Q4KL83sf4"}
+{"key":"playerVolume","value":"1.0","_id":"fFK3U56RYl8Gvt7Q"}
+{"key":"releaseName","value":"Love in the Time of Corona","_id":"jNh1J2IadqSavuZJ"}
+{"key":"version","value":"0.4.4","_id":"jk5pFPsjuqOSdgPE"}
+{"key":"arch","value":"x64","_id":"pIl0AmQqH2PSRB7s"}
+{"key":"os","value":"linux","_id":"rPvCvcuY3qOjib7v"}
+{"$$indexCreated":{"fieldName":"key","unique":true,"sparse":false}}
+{"key":"disclaimerAccepted","value":1,"_id":"5uekt4LBEzBmuwiP"}

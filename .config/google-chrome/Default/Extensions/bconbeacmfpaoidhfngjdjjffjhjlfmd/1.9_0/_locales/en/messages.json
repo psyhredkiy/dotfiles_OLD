@@ -1,0 +1,62 @@
+{
+   "colorOfMessageDesc": {
+      "description": "",
+      "message": "Color that will stand out on the page found by word or phrase. For example: red, # 336699"
+   },
+   "contextMenusName": {
+      "description": "",
+      "message": "Add to search keys"
+   },
+   "defwordsList": {
+      "description": "",
+      "message": "hello, moscow, russia"
+   },
+   "delayOfMessageDesc": {
+      "description": "",
+      "message": "The delay (in seconds) display pop-up message that will appear in the match page"
+   },
+   "extActiveYesNoDesc": {
+      "description": "",
+      "message": "Global parameter which is responsible for the expansion in general. If 'not active' search for pages withheld. If 'active' (default value) page analysis performed in accordance with the specified keywords"
+   },
+   "extDescription": {
+      "description": "",
+      "message": "Automatic search, selection and notification by keywords on the page"
+   },
+   "extName": {
+      "description": "",
+      "message": "Auto lights chosen words on a page"
+   },
+   "extSettingsDesc": {
+      "description": "",
+      "message": "Advanced Settings"
+   },
+   "hideLinks": {
+      "description": "",
+      "message": "Hide Links"
+   },
+   "saveDesc": {
+      "description": "",
+      "message": "Save changes?"
+   },
+   "saveResultDesc": {
+      "description": "",
+      "message": "Data saved successfully"
+   },
+   "showLinks": {
+      "description": "",
+      "message": "Show Links"
+   },
+   "voiceMessageDesc": {
+      "description": "",
+      "message": "Voice announcement which will be heard in the match on the page. Supported only english language"
+   },
+   "voiceMessageYesNoDesc": {
+      "description": "",
+      "message": "Will heard a voice notification if a hit on a page?"
+   },
+   "wordListDesc": {
+      "description": "",
+      "message": "A list of words or phrases, separated by commas, in which to search for the page"
+   }
+}

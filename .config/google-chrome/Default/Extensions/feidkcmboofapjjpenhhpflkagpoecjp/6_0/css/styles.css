@@ -1,0 +1,133 @@
+.vkontakte-download-button-playlist {
+    margin: 6px 6px 6px 0;
+    padding: 4px;
+}
+
+.vkontakte-download-button-search-results {
+    margin: 6px 10px 6px 0;
+    padding: 4px;
+}
+
+.vkontakte-download-button-player {
+    margin: 6px 6px 6px 0;
+    padding: 4px;
+}
+
+.vkontakte-download-button {
+    width: 11px;
+    height: 11px;
+    visibility: hidden;
+    overflow: hidden;
+    display: block;
+    background: url('chrome-extension://__MSG_@@extension_id__/images/upload_button_vk.png') left top no-repeat;
+    position: relative;
+    top: 1px;
+}
+
+
+#audio.new .audio.over .vkontakte-download-button,
+#audio.new .audio.tt_shown .vkontakte-download-button,
+.audio.over .vkontakte-download-button
+{
+    visibility: visible;
+}
+/*
+.audio_table .audio .title_wrap {
+    width: 290px !important;
+}
+*/
+
+
+.prostopleer-download-button {
+    width: 18px;
+    height: 18px;
+    display: block;
+    background: url('chrome-extension://__MSG_@@extension_id__/images/upload_button_square.png') left top no-repeat;
+    margin-top: 1px;
+}
+
+.promodj-download-button-single {
+    width: 71px;
+    height: 18px;
+    display: inline-block;
+    position: relative;
+    top: 7px;
+    left: 3px;
+    background: url('chrome-extension://__MSG_@@extension_id__/images/upload_button.png') left top no-repeat;
+}
+
+.promodj-download-button-track2-square {
+    width: 18px;
+    height: 18px;
+    display: block;
+    position: relative;
+    top: 10px;
+    left: 6px;
+    background: url('chrome-extension://__MSG_@@extension_id__/images/upload_button_square.png') left top no-repeat;
+}
+
+.promodj-download-button-track-clickable-square {
+    background: url('chrome-extension://__MSG_@@extension_id__/images/upload_button_square_small.png') left top no-repeat !important;
+    margin-left: -4px;
+}
+
+.soundcloud-download-button {
+    width: 71px;
+    height: 18px;
+    display: block;
+    background: url('chrome-extension://__MSG_@@extension_id__/images/upload_button.png') left top no-repeat;
+}
+
+
+
+
+
+/* НАШИ СТИЛИ */
+.ttsettings {
+	width: 500px;
+	float: left;
+	background:#f1f1f1;
+	border: 1px solid #acacac;
+	-webkit-box-shadow: 1px 1px 3px 2px rgba(172, 172, 172, 0.2);
+    box-shadow: 1px 1px 3px 2px rgba(172, 172, 172, 0.2);
+    -webkit-user-select: none;
+
+}
+
+.ttheader {background:#fff;
+    padding:20px;
+    font: 18px/24px 'Open Sans',arial,sans-serif;
+    vertical-align:top;
+    overflow: hidden;
+    border-bottom:1px solid #cccccc;
+}
+
+.ttheader h1 {display:block; float: left; margin-left: 20px; margin-top:10px; position:relative; height:40px;}
+.ttlogo { display:block; float: left; }
+.ttclose {float:right; width:20px; height:20px; background:url('chrome-extension://__MSG_@@extension_id__/images/close.png') top left no-repeat; margin-top:-5px;}
+.ttclose:hover {background:url('chrome-extension://__MSG_@@extension_id__/images/closehover.png') top left no-repeat;}
+
+.ttmain {
+	-webkit-user-select: none;
+	padding:20px; color:#000;
+}
+
+.ttmain h2 {float: left; display: block; width: 350px; font: 14px/21px 'Open Sans',arial,sans-serif;}
+.ttmain img {float: right;}
+
+.ttform, .ttformul {display:block; clear:both;}
+.ttformul {padding:0; margin:0; margin-bottom:20px;}
+.ttformul li {margin:0; padding:5px 0 5px 0; list-style:none; font: 14px/21px 'Open Sans',arial,sans-serif;}
+.ttsubmit {background:transparent url('chrome-extension://__MSG_@@extension_id__/images/buttonsave.png') left top no-repeat; width:154px; height:36px; border:0 none; vertical-align:top; color: #fff;font: 14px/21px 'Open Sans',arial,sans-serif; cursor:pointer; }
+.ttsubmit:hover {background:url('chrome-extension://__MSG_@@extension_id__/images/buttonsavehover.png') left top no-repeat;}
+
+
+/* NOTIFICATION */
+.notification-title {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.notification-message {
+}
+

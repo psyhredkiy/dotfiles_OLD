@@ -1,0 +1,68 @@
+{
+   "chooseSitesTextPart1": {
+      "message": "Choose sites"
+   },
+   "chooseSitesTextPart2": {
+      "message": ", where you'd like to place 10tracks upload button"
+   },
+   "extDescription": {
+      "message": "This plugin places 10tracks button on your favourite music sites: VK and promodj."
+   },
+   "extName": {
+      "message": "10tracks Music Import"
+   },
+   "extractingDownloadUrlFailed": {
+      "message": "Can't extract song download url"
+   },
+   "fileInaccessible": {
+      "message": "Fils is not accessible"
+   },
+   "internet": {
+      "message": "Интернет"
+   },
+   "loginOffer": {
+      "message": "Log in 10tracks, please"
+   },
+   "optionsTitle": {
+      "message": "10tracks settings"
+   },
+   "promodj": {
+      "message": "PROMO DJ"
+   },
+   "prostopleer": {
+      "message": "prostopleer"
+   },
+   "saveOptions": {
+      "message": "Save"
+   },
+   "soundcloud": {
+      "message": "soundcloud"
+   },
+   "uploadFailed": {
+      "message": "Upload failed"
+   },
+   "uploadJobAdded": {
+      "message": "Upload job added"
+   },
+   "uploadJobNotAdded": {
+      "message": "Adding upload job failed"
+   },
+   "uploadNotAuthenticated": {
+      "message": "Authorization needed"
+   },
+   "uploadStarted": {
+      "message": "Upload started. Please, do not close this window until downloading is over"
+   },
+   "uploadSucceeded": {
+      "message": "Successfully uploaded"
+   },
+   "userExceededLimit": {
+      "message": "User storage limit exceeded"
+   },
+   "vkAddToTentracks": {
+      "message": "Add to 10tracks"
+   },
+   "vkontakte": {
+      "message": "ВКонтакте"
+   }
+}

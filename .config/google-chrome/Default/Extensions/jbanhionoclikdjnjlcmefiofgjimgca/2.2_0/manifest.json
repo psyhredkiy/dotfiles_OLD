@@ -1,0 +1,23 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_popup": "popup/info.html"
+   },
+   "content_scripts": [ {
+      "js": [ "remove-banner.js" ],
+      "matches": [ "https://*.twitter.com/*" ]
+   } ],
+   "description": "Forces your browser to use old twitter.",
+   "icons": {
+      "128": "128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlRMNvkMibWGnoTW3jvT28vsAUcRaAfTdGlyvqzbRwZeroySjcJYicYRpM101fj0x/Rbiv27fPMbCqw+RXdZekizDggz/5npi8LLITc6FL75RLQV3Ke5SLtzF6mIlDTnYfh5uiotFDNqsfwKys99Tw2pmuGzAtrXDvckuZeFIOtsjDyDuzkgpGZ9+Z40azlOZW0IrksWizx/L2qknQQiG3MteOHBeisiki6n8tMX+81mqX0rnYPuJSMTwTN1gQZCK6u7+J0q1BxhD/zXnmv94SVUfqkwOn1N44Lx45vylNAb///gf2ZzARBu9TjGzie5/bG76PeRM9ezdehQXO8ZXvwIDAQAB",
+   "manifest_version": 2,
+   "name": "GoodTwitter",
+   "permissions": [ "webRequest", "webRequestBlocking", "*://*.twitter.com/", "browsingData", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.2"
+}

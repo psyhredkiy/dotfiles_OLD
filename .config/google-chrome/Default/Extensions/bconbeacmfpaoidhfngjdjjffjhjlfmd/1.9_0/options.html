@@ -1,0 +1,171 @@
+﻿<html>
+<head>
+	<title>Настройки пользовательского поиска</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style type="text/css">
+    .blockText
+    {
+    	border: 1px solid #336699;
+    	padding: 5px;
+    	margin: 5px;
+    	border-radius: 5px;
+    	font-family: Verdana, Arial, Helvetica, sans-serif;
+    	font-size: 12px;
+    }
+    .blockInput
+    {
+    	border: 0px solid #336699;
+    	padding: 0px;
+    	margin: 5px;
+    	border-radius: 5px;
+    	font-family: Verdana, Arial, Helvetica, sans-serif;
+    	font-size: 12px;
+    }
+    .saveResult
+    {
+    	background-color: green;
+    	padding: 5px;
+    	color: white;
+    	display: none;
+    	border-radius: 5px;
+    	border: 1px inset green;
+    	width: 300px;
+    }
+    button
+    {
+    	padding: 10px;
+    	margin: 5px;
+    }
+    </style>
+</head>
+<body>
+	<table border="0" cellpadding="10" cellspacing="0">
+
+		<tr align="center">
+	    	<td width="40%" valign="top">
+	    	<div class ="blockText" id="extActiveYesNoDesc">
+
+			</div>
+	    	</td>
+
+	    	<td align="left" valign="top">
+
+			<div class ="blockInput">
+
+	    	<select id="extActiveYesNo">
+   			<option value="1">Активно</option>
+			<option value="0">Не активно</option>
+			</select>
+
+			</div>
+	    	</td>
+ 		</tr>
+
+		<tr align="center">
+	    	<td width="40%" valign="top">
+	    	<div class ="blockText" id="wordListDesc">
+
+			</div>
+	    	</td>
+
+	    	<td align="left" valign="top">
+			<div class ="blockInput">
+			<textarea rows="5" cols="50" name="wordsList" id="wordsList"></textarea>
+			</div>
+	    	</td>
+ 		</tr>
+
+		<tr align="center">
+	    	<td width="40%" valign="top">
+	    	<div class ="blockText" id="delayOfMessageDesc">
+
+			</div>
+	    	</td>
+
+	    	<td align="left" valign="top">
+	    	<div class ="blockInput">
+
+	    	<select id="delayOfMessage">
+   			<option value="-1">Не показывать</option>
+			<option value="0">Сам закрою</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="10">10</option>
+			</select>
+
+	    	</div>
+	    	</td>
+ 		</tr>
+
+		<tr align="center">
+	    	<td width="40%" valign="top">
+	    	<div class ="blockText" id="voiceMessageYesNoDesc">
+
+			</div>
+	    	</td>
+
+	    	<td align="left" valign="top">
+	    	<div class ="blockInput">
+
+	    	<select id="voiceMessageYesNo">
+   			<option value="1">Yes</option>
+			<option value="0">No</option>
+			</select>
+
+	    	</div>
+	    	</td>
+ 		</tr>
+
+		<tr align="center">
+	    	<td width="40%" valign="top">
+	    	<div class ="blockText" id="voiceMessageDesc">
+
+			</div>
+	    	</td>
+
+	    	<td align="left" valign="top">
+	    	<div class ="blockInput">
+	    	<input type="text" name="voiceMessage" size="50" id="voiceMessage"/>
+	    	</div>
+	    	</td>
+ 		</tr>
+
+		<tr align="center">
+	    	<td width="40%" valign="top">
+	    	<div class ="blockText" id="colorOfMessageDesc">
+
+			</div>
+	    	</td>
+
+	    	<td align="left" valign="top">
+	    	<div class ="blockInput">
+			
+	    	<input type="color" name="colorOfMessage" size="25" id="colorOfMessage"/>
+			<input type="checkbox" name="colorRandom" id="colorRandom" value="1" >Random
+			<!--
+			<select id="colorOfMessage" >
+				<option value="blue" style="background-color: blue; color: white;">blue</option>
+				<option value="green" style="background-color: green; color: white;">green</option>
+				<option value="red" style="background-color: red; color: white;">red</option>
+			</select>			
+	    	-->
+			</div>
+	    	</td>
+ 		</tr>
+
+    	<tr>
+	    	<td align="center" colspan=2>
+			    <button id="save"></button>
+				<br>
+			    <div id="saveResult" class="saveResult"></div>
+			</td>
+        </tr>
+
+   	</table>
+
+    <script type="text/javascript" src="options.js"></script>
+</body>
+</html>

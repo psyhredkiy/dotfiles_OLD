@@ -1,0 +1,94 @@
+2020/05/29-23:02:08.274 4c21 Reusing MANIFEST /home/xanderz/.config/google-chrome/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
+2020/05/29-23:02:08.274 4c21 Recovering log #497
+2020/05/29-23:02:08.333 4c21 Level-0 table #500: started
+2020/05/29-23:02:08.424 4c21 Level-0 table #500: 5183856 bytes OK
+2020/05/29-23:02:08.436 4c21 Delete type=0 #497
+2020/05/29-23:03:14.110 4ebc Level-0 table #503: started
+2020/05/29-23:03:14.199 4ebc Level-0 table #503: 5183868 bytes OK
+2020/05/29-23:03:14.204 4ebc Delete type=0 #501
+2020/05/29-23:04:12.874 4ebc Level-0 table #505: started
+2020/05/29-23:04:12.974 4ebc Level-0 table #505: 5407329 bytes OK
+2020/05/29-23:04:12.982 4ebc Delete type=0 #502
+2020/05/29-23:04:12.984 4ebc Compacting 4@0 + 2@1 files
+2020/05/29-23:04:13.165 4ebc Generated table #506@0: 1 keys, 5407112 bytes
+2020/05/29-23:04:13.170 4ebc Generated table #507@0: 7 keys, 427 bytes
+2020/05/29-23:04:13.170 4ebc Compacted 4@0 + 2@1 files => 5407539 bytes
+2020/05/29-23:04:13.174 4ebc compacted to: files[ 0 2 1 0 0 0 0 ]
+2020/05/29-23:04:13.174 4ebc Delete type=2 #496
+2020/05/29-23:04:13.174 4ebc Delete type=2 #498
+2020/05/29-23:04:13.174 4ebc Delete type=2 #503
+2020/05/29-23:04:13.174 4ebc Delete type=2 #500
+2020/05/29-23:04:13.174 4ebc Delete type=2 #495
+2020/05/29-23:04:13.174 4ebc Delete type=2 #505
+2020/05/30-00:03:15.810 4ebc Level-0 table #509: started
+2020/05/30-00:03:15.913 4ebc Level-0 table #509: 5407336 bytes OK
+2020/05/30-00:03:15.918 4ebc Delete type=0 #504
+2020/05/30-01:03:13.313 4ebc Level-0 table #511: started
+2020/05/30-01:03:13.517 4ebc Level-0 table #511: 5407120 bytes OK
+2020/05/30-01:03:13.525 4ebc Delete type=0 #508
+2020/05/30-01:03:15.653 4ebc Level-0 table #513: started
+2020/05/30-01:03:15.821 4ebc Level-0 table #513: 5407122 bytes OK
+2020/05/30-01:03:15.836 4ebc Delete type=0 #510
+2020/05/30-01:03:18.982 4ebc Level-0 table #515: started
+2020/05/30-01:03:19.177 4ebc Level-0 table #515: 5407122 bytes OK
+2020/05/30-01:03:19.184 4ebc Delete type=0 #512
+2020/05/30-01:03:19.186 4ebc Compacting 4@0 + 2@1 files
+2020/05/30-01:03:19.460 4ebc Generated table #516@0: 1 keys, 5407122 bytes
+2020/05/30-01:03:19.470 4ebc Generated table #517@0: 7 keys, 427 bytes
+2020/05/30-01:03:19.470 4ebc Compacted 4@0 + 2@1 files => 5407549 bytes
+2020/05/30-01:03:19.478 4ebc compacted to: files[ 0 2 1 0 0 0 0 ]
+2020/05/30-01:03:19.478 4ebc Delete type=2 #507
+2020/05/30-01:03:19.478 4ebc Delete type=2 #515
+2020/05/30-01:03:19.478 4ebc Delete type=2 #513
+2020/05/30-01:03:19.478 4ebc Delete type=2 #506
+2020/05/30-01:03:19.478 4ebc Delete type=2 #509
+2020/05/30-01:03:19.478 4ebc Delete type=2 #511
+2020/05/30-01:03:22.509 4ebc Level-0 table #519: started
+2020/05/30-01:03:22.637 4ebc Level-0 table #519: 5407308 bytes OK
+2020/05/30-01:03:22.648 4ebc Delete type=0 #514
+2020/05/30-01:05:54.812 4ebc Level-0 table #521: started
+2020/05/30-01:05:54.985 4ebc Level-0 table #521: 5407113 bytes OK
+2020/05/30-01:05:54.993 4ebc Delete type=0 #518
+2020/05/30-02:03:15.721 4ebc Level-0 table #523: started
+2020/05/30-02:03:15.911 4ebc Level-0 table #523: 5407228 bytes OK
+2020/05/30-02:03:15.916 4ebc Delete type=0 #520
+2020/05/30-02:10:25.762 4ebc Level-0 table #525: started
+2020/05/30-02:10:25.933 4ebc Level-0 table #525: 5407117 bytes OK
+2020/05/30-02:10:25.941 4ebc Delete type=0 #522
+2020/05/30-02:10:25.943 4ebc Compacting 4@0 + 2@1 files
+2020/05/30-02:10:26.226 4ebc Generated table #526@0: 1 keys, 5407117 bytes
+2020/05/30-02:10:26.236 4ebc Generated table #527@0: 7 keys, 427 bytes
+2020/05/30-02:10:26.236 4ebc Compacted 4@0 + 2@1 files => 5407544 bytes
+2020/05/30-02:10:26.242 4ebc compacted to: files[ 0 2 1 0 0 0 0 ]
+2020/05/30-02:10:26.243 4ebc Delete type=2 #521
+2020/05/30-02:10:26.243 4ebc Delete type=2 #525
+2020/05/30-02:10:26.243 4ebc Delete type=2 #517
+2020/05/30-02:10:26.243 4ebc Delete type=2 #516
+2020/05/30-02:10:26.243 4ebc Delete type=2 #519
+2020/05/30-02:10:26.243 4ebc Delete type=2 #523
+2020/05/30-03:03:13.866 4ebc Level-0 table #529: started
+2020/05/30-03:03:13.966 4ebc Level-0 table #529: 5407209 bytes OK
+2020/05/30-03:03:13.970 4ebc Delete type=0 #524
+2020/05/30-03:22:52.099 4ebc Level-0 table #531: started
+2020/05/30-03:22:52.194 4ebc Level-0 table #531: 5407312 bytes OK
+2020/05/30-03:22:52.199 4ebc Delete type=0 #528
+2020/05/30-12:33:02.263 4ebc Level-0 table #533: started
+2020/05/30-12:33:02.359 4ebc Level-0 table #533: 5407186 bytes OK
+2020/05/30-12:33:02.364 4ebc Delete type=0 #530
+2020/05/30-12:33:06.145 4ebc Level-0 table #535: started
+2020/05/30-12:33:06.248 4ebc Level-0 table #535: 5407125 bytes OK
+2020/05/30-12:33:06.253 4ebc Delete type=0 #532
+2020/05/30-12:33:06.255 4ebc Compacting 4@0 + 2@1 files
+2020/05/30-12:33:06.462 4ebc Generated table #536@0: 1 keys, 5407125 bytes
+2020/05/30-12:33:06.470 4ebc Generated table #537@0: 7 keys, 427 bytes
+2020/05/30-12:33:06.470 4ebc Compacted 4@0 + 2@1 files => 5407552 bytes
+2020/05/30-12:33:06.474 4ebc compacted to: files[ 0 2 1 0 0 0 0 ]
+2020/05/30-12:33:06.474 4ebc Delete type=2 #529
+2020/05/30-12:33:06.474 4ebc Delete type=2 #527
+2020/05/30-12:33:06.474 4ebc Delete type=2 #535
+2020/05/30-12:33:06.474 4ebc Delete type=2 #526
+2020/05/30-12:33:06.474 4ebc Delete type=2 #531
+2020/05/30-12:33:06.474 4ebc Delete type=2 #533
+2020/05/30-12:33:09.464 4ebc Level-0 table #539: started
+2020/05/30-12:33:09.558 4ebc Level-0 table #539: 5407322 bytes OK
+2020/05/30-12:33:09.563 4ebc Delete type=0 #534

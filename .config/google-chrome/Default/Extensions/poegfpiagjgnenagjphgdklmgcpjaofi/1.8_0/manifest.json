@@ -1,0 +1,24 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "https://data-miner.io/app"
+      },
+      "urls": [ "https://data-miner.io/app" ]
+   },
+   "description": "Scraper extracts data out of web pages and into Microsoft Excel spreadsheets",
+   "icons": {
+      "128": "img/mining128.png",
+      "16": "img/mining16.png",
+      "32": "img/mining32.png",
+      "512": "img/mining512.png",
+      "96": "img/mining96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzgUWCIAg8sReCd9HH6cZIYwLDFJ7PaB0GiReKvuKMpXODBIyZYamcTp/hdy1X/VTlBy5x5y/NPJXtqQpCw0Ou2qtOzSmUoB0rYBdYz0VRWlyQxrpmA1+s840k4ySMde5bJ8aE6Tg5HoqXkLHr9BFQByVpwKtgJaQqkl3DxLmvCCj7idWANiznmbMQsK74vHy5sf/6Zm70J7snynSgt6HJ8ao82BIyeE9UF1bMTXrfNx6KXZ37mwxco0q92DTbXWgIO7Fx4HATbej6LXXAegCNksY91yXIRW0P7QeEeUXlBiB4g/9R38+ZvJA4KVNy2cTZyQK3aR86/CGBJ2V102/PQIDAQAB",
+   "manifest_version": 2,
+   "name": "Scraper",
+   "offline_enabled": false,
+   "permissions": [ "clipboardWrite", "http://*/*", "https://*/*", "unlimitedStorage" ],
+   "short_name": "Scraper",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.8"
+}

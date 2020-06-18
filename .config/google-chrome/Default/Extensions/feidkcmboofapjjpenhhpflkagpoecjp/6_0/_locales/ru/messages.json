@@ -1,0 +1,68 @@
+{
+   "chooseSitesTextPart1": {
+      "message": "Выберите сайты"
+   },
+   "chooseSitesTextPart2": {
+      "message": ", на которых разместить кнопку 10tracks для скачивания треков в Ваш аккаунт"
+   },
+   "extDescription": {
+      "message": "Этот плагин добавляет кнопку 10tracks на любимые сайты с музыкой: VK и promodj."
+   },
+   "extName": {
+      "message": "10tracks Импорт Музыки"
+   },
+   "extractingDownloadUrlFailed": {
+      "message": "Не удалось получить ссылку на песню"
+   },
+   "fileInaccessible": {
+      "message": "Файл недоступен"
+   },
+   "internet": {
+      "message": "Internet"
+   },
+   "loginOffer": {
+      "message": "Войдите в свой аккаунт 10tracks"
+   },
+   "optionsTitle": {
+      "message": "Настройки 10tracks"
+   },
+   "promodj": {
+      "message": "PROMO DJ"
+   },
+   "prostopleer": {
+      "message": "prostopleer"
+   },
+   "saveOptions": {
+      "message": "Сохранить"
+   },
+   "soundcloud": {
+      "message": "soundcloud"
+   },
+   "uploadFailed": {
+      "message": "Загрузить не удалось"
+   },
+   "uploadJobAdded": {
+      "message": "Добавлено задание на закачку"
+   },
+   "uploadJobNotAdded": {
+      "message": "Не удалось добавить задание на закачку"
+   },
+   "uploadNotAuthenticated": {
+      "message": "Необходимо авторизоваться на 10tracks"
+   },
+   "uploadStarted": {
+      "message": "Загрузка началась, не закрывайте, пожалуйста, это окно до окончания загрузки"
+   },
+   "uploadSucceeded": {
+      "message": "Успешно загружено"
+   },
+   "userExceededLimit": {
+      "message": "Превышено свободное место"
+   },
+   "vkAddToTentracks": {
+      "message": "Добавить в 10tracks"
+   },
+   "vkontakte": {
+      "message": "vk.com"
+   }
+}

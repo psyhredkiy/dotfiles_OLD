@@ -1,0 +1,33 @@
+{
+   "background": {
+      "scripts": [ "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icons/38-on.png"
+   },
+   "commands": {
+      "_execute_browser_action": {
+         "suggested_key": {
+            "default": "Ctrl+Shift+J",
+            "mac": "MacCtrl+Shift+J"
+         }
+      }
+   },
+   "description": "Enable or disable JavaScript without the hassle.",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuzz3yyR/vKdVLUROnBi5ahpvAh5fKUYqb02HJcSZmewex+Ad4vgFsgOuzH9Sw3os52qCHZcSnyQQyjQ+OK29ZZ8ZG2ak1Hf5M+CVpWggh79AEd40TCHtUgPUQlWZDtwpGBpyq3Vv+r3wNtx5/UZ0ZGshLoSTFXG8KQBm/oXsgF1BMCIux7WoPps5nqF/WP8vbWWNIFwSifUkBb7Btc+/1ZzJ5OjFLvteXppje55WC/tB9RyS2FHusep5K6pwodbia4HjicxFpxdL38y0hHD4PuYortg6Y60N1hisBCwQA0ziAJZCZFI45e9Iqf1QzMX1HGdVh0PkVo+BMCkDbWA5VQIDAQAB",
+   "manifest_version": 2,
+   "name": "Toggle JavaScript",
+   "options_ui": {
+      "chrome_style": true,
+      "page": "options.html"
+   },
+   "permissions": [ "contentSettings", "storage", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.3"
+}

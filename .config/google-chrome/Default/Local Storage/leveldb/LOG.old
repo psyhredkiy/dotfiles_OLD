@@ -1,0 +1,21 @@
+2020/05/29-23:02:07.875 4c21 Reusing MANIFEST /home/xanderz/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2020/05/29-23:02:07.875 4c21 Recovering log #117
+2020/05/29-23:02:07.877 4c21 Reusing old log /home/xanderz/.config/google-chrome/Default/Local Storage/leveldb/000117.log 
+2020/05/29-23:02:13.851 4e69 Level-0 table #121: started
+2020/05/29-23:02:13.856 4e69 Level-0 table #121: 11877 bytes OK
+2020/05/29-23:02:13.860 4e69 Delete type=0 #117
+2020/05/30-00:26:11.340 4e69 Level-0 table #123: started
+2020/05/30-00:26:11.347 4e69 Level-0 table #123: 13681 bytes OK
+2020/05/30-00:26:11.350 4e69 Delete type=0 #120
+2020/05/30-02:51:20.913 4e69 Level-0 table #125: started
+2020/05/30-02:51:20.922 4e69 Level-0 table #125: 12485 bytes OK
+2020/05/30-02:51:20.931 4e69 Delete type=0 #122
+2020/05/30-02:51:20.931 4e69 Compacting 4@0 + 1@1 files
+2020/05/30-02:51:21.020 4e69 Generated table #126@0: 469 keys, 1389439 bytes
+2020/05/30-02:51:21.020 4e69 Compacted 4@0 + 1@1 files => 1389439 bytes
+2020/05/30-02:51:21.024 4e69 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/05/30-02:51:21.024 4e69 Delete type=2 #121
+2020/05/30-02:51:21.024 4e69 Delete type=2 #118
+2020/05/30-02:51:21.024 4e69 Delete type=2 #123
+2020/05/30-02:51:21.024 4e69 Delete type=2 #115
+2020/05/30-02:51:21.024 4e69 Delete type=2 #125

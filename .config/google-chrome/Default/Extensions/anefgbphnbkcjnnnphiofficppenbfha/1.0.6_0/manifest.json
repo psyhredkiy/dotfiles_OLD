@@ -1,0 +1,17 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://www.qutoric.com/xslt/analyser/xpathtool.html"
+      }
+   },
+   "description": "XPath 2.0 Editor",
+   "icons": {
+      "128": "128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDKpgdm7edR5sFRVjnY9wwYXquMU4rM+TComvjbu7xu3aOD8m5T6oFjL/Y90v6a8QNlytGPUJugiB+of7oHSSEZKHEOpVRQIdoNrBW7fqJlWvJJYBqZgSnzYNJqFIU9YX+9+sQ9zZEHN5qXIDRK236gHOvI1dCmcurwtRJg3MEHKwIDAQAB",
+   "manifest_version": 2,
+   "name": "PathEnq",
+   "permissions": [ "unlimitedStorage" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0.6"
+}

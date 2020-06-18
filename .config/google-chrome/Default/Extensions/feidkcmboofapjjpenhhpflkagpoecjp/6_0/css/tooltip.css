@@ -1,0 +1,53 @@
+.tooltip{
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 3;
+   display: none;
+}
+
+
+.triangle-border {
+    position:relative;
+    padding:0;
+    border:1px solid #acacac;
+    color:#333;
+    background:#f1f1f1;
+   -webkit-box-shadow: 1px 1px 3px 2px rgba(172, 172, 172, 0.2);
+    box-shadow: 1px 1px 3px 2px rgba(172, 172, 172, 0.2);
+    float: left; width: 350px;
+}
+
+.triangle-border:before {
+    content:"";
+    position:absolute;
+    bottom:-10px; /* value = - border-top-width - border-bottom-width */
+    left:40px; /* controls horizontal position */
+    border-width:10px 10px 0;
+    border-style:solid;
+    border-color:#acacac transparent;
+    /* reduce the damage in FF3.0 */
+    display:block; 
+    width:0;
+}
+
+/* creates the smaller  triangle */
+.triangle-border:after {
+    content:"";
+    position:absolute;
+    bottom:-9px; /* value = - border-top-width - border-bottom-width */
+    left:40px; /* value = (:before left) + (:before border-left) - (:after border-left) */
+    border-width:10px 10px 0;
+    border-style:solid;
+    border-color:#f1f1f1 transparent;
+    /* reduce the damage in FF3.0 */
+    display:block; 
+    width:0;    
+}
+
+.ttinside {vertical-align:top; width:100%; height:100%; padding:0; margin:0; border-collapse:collapse;}
+.ttinside p {display: inline;}
+.tttext {vertical-align:middle;color: #000; font: 14px/21px 'Open Sans',arial,sans-serif; padding:0 7px; }
+.ttnext {padding:0; background:#fff url('chrome-extension://__MSG_@@extension_id__/images/next.png') center center no-repeat; text-align:center; cursor:pointer; border-left:1px solid #cccccc; width:30px;}
+.ttnext:hover {background: #333 url('chrome-extension://__MSG_@@extension_id__/images/next.png') center center no-repeat;}
+.ttsmalllogo {padding:0 7px; background:url('chrome-extension://__MSG_@@extension_id__/images/logosmall.png') center center no-repeat; width:40px; height:50px;}

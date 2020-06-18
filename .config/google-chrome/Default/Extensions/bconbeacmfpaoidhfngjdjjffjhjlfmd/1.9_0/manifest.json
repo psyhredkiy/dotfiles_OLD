@@ -1,0 +1,29 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "pic/icon_1616.png",
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "icons": {
+      "128": "pic/icon_128128.png",
+      "16": "pic/icon_1616.png",
+      "48": "pic/icon_4848.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPCuOjpvvfAYLeTSmHCFX2j6r9JqOB0Vs8gwB2htU0pVE0zDNneXFMvv1sVzxtiQyL41nEGDrtRF2JWrm3s9jU0ePS0OmwA39Xv6e1mcWLCCZOcf6L81EA/tytgCPjRdrSJLT/g9dqJr8avleeT8v/RwM8zMl/EeCP3OMxL3t2PQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "20",
+   "name": "__MSG_extName__",
+   "options_page": "options.html",
+   "permissions": [ "contextMenus", "tabs", "http://*/*", "https://*/*", "notifications", "tts" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.9",
+   "web_accessible_resources": [ "pic/link.png", "pic/bg.png", "pic/icon_4848.png" ]
+}
